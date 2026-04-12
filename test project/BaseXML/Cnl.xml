@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCnl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cnl>
+    <CnlNum>101</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор - Первый бак</Name>
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>1</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>first_tank</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID>111</UnitID>
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask>17</EventMask>
+  </Cnl>
+  <Cnl>
+    <CnlNum>102</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор - Нижняя граница</Name>
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>2</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>1</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>low_border</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <FormatID>21</FormatID>
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask>69</EventMask>
+  </Cnl>
+  <Cnl>
+    <CnlNum>103</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор - Верхняя граница</Name>
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>2</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>1</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>high_border</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <FormatID>21</FormatID>
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask>69</EventMask>
+  </Cnl>
+  <Cnl>
+    <CnlNum>104</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор - Начать накачку</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>5</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>1</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>start_pump</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
+    <FormatID>21</FormatID>
+    <OutFormatID>24</OutFormatID>
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask>65</EventMask>
+  </Cnl>
+</ArrayOfCnl>

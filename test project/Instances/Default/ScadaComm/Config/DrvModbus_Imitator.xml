@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceTemplate>
+  <Options>
+    <ZeroAddr>false</ZeroAddr>
+    <DecAddr>true</DecAddr>
+    <DefByteOrder2 />
+    <DefByteOrder4 />
+    <DefByteOrder8 />
+  </Options>
+  <ElemGroups>
+    <ElemGroup active="true" dataBlock="HoldingRegisters" address="0" name="Баки">
+      <Elem type="ushort" readOnly="true" isBitMask="false" tagCode="first_tank" name="Первый бак" />
+    </ElemGroup>
+    <ElemGroup active="true" dataBlock="Coils" address="0" name="Границы">
+      <Elem readOnly="false" tagCode="low_border" name="Нижняя граница" />
+      <Elem readOnly="false" tagCode="high_border" name="Верхняя граница" />
+    </ElemGroup>
+  </ElemGroups>
+  <Cmds>
+    <Cmd dataBlock="Coils" multiple="false" address="2" cmdNum="701" cmdCode="start_pump" name="Начать накачку" />
+  </Cmds>
+</DeviceTemplate>
