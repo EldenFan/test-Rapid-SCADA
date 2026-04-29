@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceTemplate>
+  <Options>
+    <ZeroAddr>false</ZeroAddr>
+    <DecAddr>true</DecAddr>
+    <DefByteOrder2 />
+    <DefByteOrder4 />
+    <DefByteOrder8 />
+  </Options>
+  <ElemGroups>
+    <ElemGroup active="true" dataBlock="Coils" address="0" name="Насос">
+      <Elem readOnly="false" tagCode="On_third" name="Вкл" />
+    </ElemGroup>
+  </ElemGroups>
+  <Cmds>
+    <Cmd dataBlock="Coils" multiple="false" address="0" cmdNum="0" cmdCode="707" name="Изменить режим" />
+  </Cmds>
+</DeviceTemplate>

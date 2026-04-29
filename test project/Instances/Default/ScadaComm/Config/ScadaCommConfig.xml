@@ -60,6 +60,12 @@
       </CustomOptions>
       <DevicePolling>
         <Device active="true" isBound="true" number="1" name="Имитатор" driver="DrvModbus" numAddress="1" strAddress="127.0.0.1" pollOnCmd="false" timeout="1000" delay="200" time="00:00:00" period="00:00:00" cmdLine="DrvModbus_Imitator.xml" />
+        <Device active="true" isBound="true" number="2" name="Имитатор2" driver="DrvModbus" numAddress="2" strAddress="127.0.0.1" pollOnCmd="false" timeout="1000" delay="200" time="00:00:00" period="00:00:00" cmdLine="DrvModbus_Imitator2.xml" />
+        <Device active="true" isBound="true" number="3" name="Имитатор3" driver="DrvModbus" numAddress="3" strAddress="127.0.0.1" pollOnCmd="false" timeout="1000" delay="200" time="00:00:00" period="00:00:00" cmdLine="DrvModbus_Imitator3.xml" />
+        <Device active="true" isBound="true" number="4" name="ИмитаторОбщийБак" driver="DrvModbus" numAddress="4" strAddress="127.0.0.1" pollOnCmd="false" timeout="1000" delay="200" time="00:00:00" period="00:00:00" cmdLine="DrvModbus_Imitator4.xml" />
+        <Device active="true" isBound="true" number="5" name="Насос1" driver="DrvModbus" numAddress="5" strAddress="127.0.0.1" pollOnCmd="false" timeout="1000" delay="200" time="00:00:00" period="00:00:00" cmdLine="DrvModbus_Pump1.xml" />
+        <Device active="true" isBound="true" number="6" name="Насос2" driver="DrvModbus" numAddress="6" strAddress="127.0.0.1" pollOnCmd="false" timeout="1000" delay="200" time="00:00:00" period="00:00:00" cmdLine="DrvModbus_Pump2.xml" />
+        <Device active="true" isBound="true" number="7" name="Насос3" driver="DrvModbus" numAddress="7" strAddress="127.0.0.1" pollOnCmd="false" timeout="1000" delay="200" time="00:00:00" period="00:00:00" cmdLine="DrvModbus_Pump3.xml" />
       </DevicePolling>
     </Line>
   </Lines>

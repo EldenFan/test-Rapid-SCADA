@@ -9,14 +9,14 @@
   </Options>
   <ElemGroups>
     <ElemGroup active="true" dataBlock="HoldingRegisters" address="0" name="Баки">
-      <Elem type="ushort" readOnly="true" isBitMask="false" tagCode="first_tank" name="Бак" />
+      <Elem type="ushort" readOnly="true" isBitMask="false" tagCode="second_tank" name="Бак" />
     </ElemGroup>
     <ElemGroup active="true" dataBlock="Coils" address="0" name="Границы">
-      <Elem readOnly="false" tagCode="first_low" name="Нижняя граница" />
-      <Elem readOnly="false" tagCode="first_high" name="Верхняя граница" />
+      <Elem readOnly="false" tagCode="second_low" name="Нижняя граница" />
+      <Elem readOnly="false" tagCode="second_high" name="Верхняя граница" />
     </ElemGroup>
   </ElemGroups>
   <Cmds>
-    <Cmd dataBlock="Coils" multiple="false" address="2" cmdNum="701" cmdCode="first_pump" name="Начать накачку" />
+    <Cmd dataBlock="Coils" multiple="false" address="2" cmdNum="701" cmdCode="second_pump" name="Начать накачку" />
   </Cmds>
 </DeviceTemplate>

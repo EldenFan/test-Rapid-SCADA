@@ -10,4 +10,64 @@
     <CommLineNum>1</CommLineNum>
     <Descr />
   </Device>
+  <Device>
+    <DeviceNum>2</DeviceNum>
+    <Name>Имитатор2</Name>
+    <Code />
+    <DevTypeID>214</DevTypeID>
+    <NumAddress>2</NumAddress>
+    <StrAddress>127.0.0.1</StrAddress>
+    <CommLineNum>1</CommLineNum>
+    <Descr />
+  </Device>
+  <Device>
+    <DeviceNum>3</DeviceNum>
+    <Name>Имитатор3</Name>
+    <Code />
+    <DevTypeID>214</DevTypeID>
+    <NumAddress>3</NumAddress>
+    <StrAddress>127.0.0.1</StrAddress>
+    <CommLineNum>1</CommLineNum>
+    <Descr />
+  </Device>
+  <Device>
+    <DeviceNum>4</DeviceNum>
+    <Name>ИмитаторОбщийБак</Name>
+    <Code />
+    <DevTypeID>214</DevTypeID>
+    <NumAddress>4</NumAddress>
+    <StrAddress>127.0.0.1</StrAddress>
+    <CommLineNum>1</CommLineNum>
+    <Descr />
+  </Device>
+  <Device>
+    <DeviceNum>5</DeviceNum>
+    <Name>Насос1</Name>
+    <Code />
+    <DevTypeID>214</DevTypeID>
+    <NumAddress>5</NumAddress>
+    <StrAddress>127.0.0.1</StrAddress>
+    <CommLineNum>1</CommLineNum>
+    <Descr />
+  </Device>
+  <Device>
+    <DeviceNum>6</DeviceNum>
+    <Name>Насос2</Name>
+    <Code />
+    <DevTypeID>214</DevTypeID>
+    <NumAddress>6</NumAddress>
+    <StrAddress>127.0.0.1</StrAddress>
+    <CommLineNum>1</CommLineNum>
+    <Descr />
+  </Device>
+  <Device>
+    <DeviceNum>7</DeviceNum>
+    <Name>Насос3</Name>
+    <Code />
+    <DevTypeID>214</DevTypeID>
+    <NumAddress>7</NumAddress>
+    <StrAddress>127.0.0.1</StrAddress>
+    <CommLineNum>1</CommLineNum>
+    <Descr />
+  </Device>
 </ArrayOfDevice>

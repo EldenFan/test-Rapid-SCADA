@@ -3,7 +3,8 @@
   <Cnl>
     <CnlNum>101</CnlNum>
     <Active>true</Active>
-    <Name>Имитатор - Первый бак</Name>
+    <Name>Имитатор -  Бак</Name>
+    <Code />
     <DataTypeID xsi:nil="true" />
     <DataLen xsi:nil="true" />
     <CnlTypeID>1</CnlTypeID>
@@ -12,6 +13,8 @@
     <TagNum xsi:nil="true" />
     <TagCode>first_tank</TagCode>
     <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
     <FormatID xsi:nil="true" />
     <OutFormatID xsi:nil="true" />
     <QuantityID xsi:nil="true" />
@@ -24,14 +27,17 @@
     <CnlNum>102</CnlNum>
     <Active>true</Active>
     <Name>Имитатор - Нижняя граница</Name>
+    <Code />
     <DataTypeID xsi:nil="true" />
     <DataLen xsi:nil="true" />
     <CnlTypeID>2</CnlTypeID>
     <ObjNum>1</ObjNum>
     <DeviceNum>1</DeviceNum>
     <TagNum xsi:nil="true" />
-    <TagCode>low_border</TagCode>
+    <TagCode>first_low</TagCode>
     <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
     <FormatID>21</FormatID>
     <OutFormatID xsi:nil="true" />
     <QuantityID xsi:nil="true" />
@@ -44,14 +50,17 @@
     <CnlNum>103</CnlNum>
     <Active>true</Active>
     <Name>Имитатор - Верхняя граница</Name>
+    <Code />
     <DataTypeID xsi:nil="true" />
     <DataLen xsi:nil="true" />
     <CnlTypeID>2</CnlTypeID>
     <ObjNum>1</ObjNum>
     <DeviceNum>1</DeviceNum>
     <TagNum xsi:nil="true" />
-    <TagCode>high_border</TagCode>
+    <TagCode>first_high</TagCode>
     <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
     <FormatID>21</FormatID>
     <OutFormatID xsi:nil="true" />
     <QuantityID xsi:nil="true" />
@@ -71,7 +80,7 @@
     <ObjNum>1</ObjNum>
     <DeviceNum>1</DeviceNum>
     <TagNum xsi:nil="true" />
-    <TagCode>start_pump</TagCode>
+    <TagCode>first_pump</TagCode>
     <FormulaEnabled>false</FormulaEnabled>
     <InFormula />
     <OutFormula />
@@ -82,5 +91,263 @@
     <LimID xsi:nil="true" />
     <ArchiveMask xsi:nil="true" />
     <EventMask>65</EventMask>
+  </Cnl>
+  <Cnl>
+    <CnlNum>201</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор2 - Бак</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>2</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>second_tank</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>202</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор2 - Нижнняя граница</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>2</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>second_low</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>203</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор2 - Верхняя граница</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>2</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>second_high</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>204</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор2 - Начать накачку</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>2</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>second_pump</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>301</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор3 - Третий бак </Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>3</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>third_tank</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>302</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор3 - Нижняя граница</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>3</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>third_low</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>303</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор3 - Верхняя граница</Name>
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>3</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>third_high</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>304</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор3 - Начать накачку</Name>
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>3</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>third_pump</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>401</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор4 - Первый бак</Name>
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>4</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>four_tank</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>402</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор4 - Нижняя граница</Name>
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>4</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>four_low</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>403</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор4 - Верхняя граница</Name>
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>4</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>four_high</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>404</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор4 - Начать накачку</Name>
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>1</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>4</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>four_pump</TagCode>
+    <FormulaEnabled>false</FormulaEnabled>
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
   </Cnl>
 </ArrayOfCnl>
