@@ -10,13 +10,12 @@
   <ElemGroups>
     <ElemGroup active="true" dataBlock="HoldingRegisters" address="0" name="Баки">
       <Elem type="ushort" readOnly="true" isBitMask="false" tagCode="four_tank" name="Бак" />
+      <Elem type="ushort" readOnly="false" isBitMask="false" tagCode="four_percent" name="Процент наполнения" />
     </ElemGroup>
     <ElemGroup active="true" dataBlock="Coils" address="0" name="Границы">
       <Elem readOnly="false" tagCode="four_low" name="Нижняя граница" />
       <Elem readOnly="false" tagCode="four_high" name="Верхняя граница" />
     </ElemGroup>
   </ElemGroups>
-  <Cmds>
-    <Cmd dataBlock="Coils" multiple="false" address="2" cmdNum="701" cmdCode="four_pump" name="Начать накачку" />
-  </Cmds>
+  <Cmds />
 </DeviceTemplate>

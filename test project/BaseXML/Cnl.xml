@@ -30,7 +30,7 @@
     <Code />
     <DataTypeID xsi:nil="true" />
     <DataLen xsi:nil="true" />
-    <CnlTypeID>2</CnlTypeID>
+    <CnlTypeID>1</CnlTypeID>
     <ObjNum>1</ObjNum>
     <DeviceNum>1</DeviceNum>
     <TagNum xsi:nil="true" />
@@ -53,7 +53,7 @@
     <Code />
     <DataTypeID xsi:nil="true" />
     <DataLen xsi:nil="true" />
-    <CnlTypeID>2</CnlTypeID>
+    <CnlTypeID>1</CnlTypeID>
     <ObjNum>1</ObjNum>
     <DeviceNum>1</DeviceNum>
     <TagNum xsi:nil="true" />
@@ -72,15 +72,15 @@
   <Cnl>
     <CnlNum>104</CnlNum>
     <Active>true</Active>
-    <Name>Имитатор - Начать накачку</Name>
+    <Name>Имитатор - Процент заполнения</Name>
     <Code />
     <DataTypeID xsi:nil="true" />
     <DataLen xsi:nil="true" />
-    <CnlTypeID>5</CnlTypeID>
+    <CnlTypeID>1</CnlTypeID>
     <ObjNum>1</ObjNum>
     <DeviceNum>1</DeviceNum>
     <TagNum xsi:nil="true" />
-    <TagCode>first_pump</TagCode>
+    <TagCode>first_percent</TagCode>
     <FormulaEnabled>false</FormulaEnabled>
     <InFormula />
     <OutFormula />
@@ -91,6 +91,52 @@
     <LimID xsi:nil="true" />
     <ArchiveMask xsi:nil="true" />
     <EventMask>65</EventMask>
+  </Cnl>
+  <Cnl>
+    <CnlNum>105</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор - Накачка</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>2</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>1</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>first_pump</TagCode>
+    <FormulaEnabled>true</FormulaEnabled>
+    <InFormula />
+    <OutFormula>+ 1</OutFormula>
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>106</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор - Откачка</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>2</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>1</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>first_draining</TagCode>
+    <FormulaEnabled>true</FormulaEnabled>
+    <InFormula />
+    <OutFormula>+ 1</OutFormula>
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
   </Cnl>
   <Cnl>
     <CnlNum>201</CnlNum>
@@ -164,7 +210,7 @@
   <Cnl>
     <CnlNum>204</CnlNum>
     <Active>true</Active>
-    <Name>Имитатор2 - Начать накачку</Name>
+    <Name>Имитатор2 - Процент наполнения</Name>
     <Code />
     <DataTypeID xsi:nil="true" />
     <DataLen xsi:nil="true" />
@@ -172,10 +218,56 @@
     <ObjNum>1</ObjNum>
     <DeviceNum>2</DeviceNum>
     <TagNum xsi:nil="true" />
-    <TagCode>second_pump</TagCode>
+    <TagCode>second_percent</TagCode>
     <FormulaEnabled>false</FormulaEnabled>
     <InFormula />
     <OutFormula />
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>205</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор2 - Накачка</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>2</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>2</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>second_pump</TagCode>
+    <FormulaEnabled>true</FormulaEnabled>
+    <InFormula />
+    <OutFormula> + 1</OutFormula>
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>206</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор2 - Откачка</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>2</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>2</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>second_draining</TagCode>
+    <FormulaEnabled>true</FormulaEnabled>
+    <InFormula />
+    <OutFormula> + 1</OutFormula>
     <FormatID xsi:nil="true" />
     <OutFormatID xsi:nil="true" />
     <QuantityID xsi:nil="true" />
@@ -253,15 +345,64 @@
   <Cnl>
     <CnlNum>304</CnlNum>
     <Active>true</Active>
-    <Name>Имитатор3 - Начать накачку</Name>
+    <Name>Имитатор3 - Процент наполнения</Name>
+    <Code />
     <DataTypeID xsi:nil="true" />
     <DataLen xsi:nil="true" />
     <CnlTypeID>1</CnlTypeID>
     <ObjNum>1</ObjNum>
     <DeviceNum>3</DeviceNum>
     <TagNum xsi:nil="true" />
-    <TagCode>third_pump</TagCode>
+    <TagCode>third_percent</TagCode>
     <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>305</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор3 - Накачка</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>2</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>3</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>third_pump</TagCode>
+    <FormulaEnabled>true</FormulaEnabled>
+    <InFormula />
+    <OutFormula>+ 1</OutFormula>
+    <FormatID xsi:nil="true" />
+    <OutFormatID xsi:nil="true" />
+    <QuantityID xsi:nil="true" />
+    <UnitID xsi:nil="true" />
+    <LimID xsi:nil="true" />
+    <ArchiveMask xsi:nil="true" />
+    <EventMask xsi:nil="true" />
+  </Cnl>
+  <Cnl>
+    <CnlNum>306</CnlNum>
+    <Active>true</Active>
+    <Name>Имитатор3 - Откачка</Name>
+    <Code />
+    <DataTypeID xsi:nil="true" />
+    <DataLen xsi:nil="true" />
+    <CnlTypeID>2</CnlTypeID>
+    <ObjNum>1</ObjNum>
+    <DeviceNum>3</DeviceNum>
+    <TagNum xsi:nil="true" />
+    <TagCode>third _draining</TagCode>
+    <FormulaEnabled>true</FormulaEnabled>
+    <InFormula />
+    <OutFormula>+ 1</OutFormula>
     <FormatID xsi:nil="true" />
     <OutFormatID xsi:nil="true" />
     <QuantityID xsi:nil="true" />
@@ -333,15 +474,18 @@
   <Cnl>
     <CnlNum>404</CnlNum>
     <Active>true</Active>
-    <Name>Имитатор4 - Начать накачку</Name>
+    <Name>Имитатор4 - Процент наполнения</Name>
+    <Code />
     <DataTypeID xsi:nil="true" />
     <DataLen xsi:nil="true" />
     <CnlTypeID>1</CnlTypeID>
     <ObjNum>1</ObjNum>
     <DeviceNum>4</DeviceNum>
     <TagNum xsi:nil="true" />
-    <TagCode>four_pump</TagCode>
+    <TagCode>four_percent</TagCode>
     <FormulaEnabled>false</FormulaEnabled>
+    <InFormula />
+    <OutFormula />
     <FormatID xsi:nil="true" />
     <OutFormatID xsi:nil="true" />
     <QuantityID xsi:nil="true" />

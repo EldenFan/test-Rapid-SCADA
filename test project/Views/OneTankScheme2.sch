@@ -226,8 +226,8 @@
       <Text>Долить </Text>
       <Action>SendCommandNow</Action>
       <BoundProperty>None</BoundProperty>
-      <InCnlNum>104</InCnlNum>
-      <CtrlCnlNum>104</CtrlCnlNum>
+      <InCnlNum>0</InCnlNum>
+      <CtrlCnlNum>105</CtrlCnlNum>
     </basic:Button>
     <StaticPicture>
       <BackColor />
@@ -361,8 +361,8 @@
       <Text>Долить </Text>
       <Action>SendCommandNow</Action>
       <BoundProperty>None</BoundProperty>
-      <InCnlNum>204</InCnlNum>
-      <CtrlCnlNum>204</CtrlCnlNum>
+      <InCnlNum>0</InCnlNum>
+      <CtrlCnlNum>205</CtrlCnlNum>
     </basic:Button>
     <basic:Led>
       <BackColor>Silver</BackColor>
@@ -520,8 +520,8 @@
       <Text>Долить </Text>
       <Action>SendCommandNow</Action>
       <BoundProperty>None</BoundProperty>
-      <InCnlNum>304</InCnlNum>
-      <CtrlCnlNum>304</CtrlCnlNum>
+      <InCnlNum>0</InCnlNum>
+      <CtrlCnlNum>305</CtrlCnlNum>
     </basic:Button>
     <basic:Led>
       <BackColor>Silver</BackColor>
@@ -911,7 +911,7 @@
       <Action>SendCommandNow</Action>
       <BoundProperty>None</BoundProperty>
       <InCnlNum>0</InCnlNum>
-      <CtrlCnlNum>0</CtrlCnlNum>
+      <CtrlCnlNum>106</CtrlCnlNum>
     </basic:Button>
     <StaticText>
       <BackColor />
@@ -979,7 +979,7 @@
           <Color>Green</Color>
         </Condition>
       </Conditions>
-      <InCnlNum>0</InCnlNum>
+      <InCnlNum>106</InCnlNum>
       <CtrlCnlNum>0</CtrlCnlNum>
     </basic:Led>
     <basic:Button>
@@ -1015,7 +1015,7 @@
       <Action>SendCommandNow</Action>
       <BoundProperty>None</BoundProperty>
       <InCnlNum>0</InCnlNum>
-      <CtrlCnlNum>0</CtrlCnlNum>
+      <CtrlCnlNum>206</CtrlCnlNum>
     </basic:Button>
     <basic:Led>
       <BackColor>Silver</BackColor>
@@ -1053,7 +1053,7 @@
           <Color>Green</Color>
         </Condition>
       </Conditions>
-      <InCnlNum>0</InCnlNum>
+      <InCnlNum>206</InCnlNum>
       <CtrlCnlNum>0</CtrlCnlNum>
     </basic:Led>
     <basic:Button>
@@ -1089,7 +1089,7 @@
       <Action>SendCommandNow</Action>
       <BoundProperty>None</BoundProperty>
       <InCnlNum>0</InCnlNum>
-      <CtrlCnlNum>0</CtrlCnlNum>
+      <CtrlCnlNum>306</CtrlCnlNum>
     </basic:Button>
     <basic:Led>
       <BackColor>Silver</BackColor>
@@ -1127,7 +1127,7 @@
           <Color>Green</Color>
         </Condition>
       </Conditions>
-      <InCnlNum>0</InCnlNum>
+      <InCnlNum>306</InCnlNum>
       <CtrlCnlNum>0</CtrlCnlNum>
     </basic:Led>
     <DynamicPicture>
@@ -1226,7 +1226,7 @@
           <ImageName>progress_vert100.svg</ImageName>
         </Condition>
       </Conditions>
-      <InCnlNum>0</InCnlNum>
+      <InCnlNum>104</InCnlNum>
       <CtrlCnlNum>0</CtrlCnlNum>
     </DynamicPicture>
     <StaticText>
@@ -1371,7 +1371,7 @@
           <ImageName>progress_vert100.svg</ImageName>
         </Condition>
       </Conditions>
-      <InCnlNum>0</InCnlNum>
+      <InCnlNum>204</InCnlNum>
       <CtrlCnlNum>0</CtrlCnlNum>
     </DynamicPicture>
     <StaticText>
@@ -1493,7 +1493,7 @@
           <ImageName>progress_vert100.svg</ImageName>
         </Condition>
       </Conditions>
-      <InCnlNum>0</InCnlNum>
+      <InCnlNum>304</InCnlNum>
       <CtrlCnlNum>0</CtrlCnlNum>
     </DynamicPicture>
     <StaticText>
@@ -1881,7 +1881,7 @@
           <ImageName>progress_vert100.svg</ImageName>
         </Condition>
       </Conditions>
-      <InCnlNum>0</InCnlNum>
+      <InCnlNum>404</InCnlNum>
       <CtrlCnlNum>0</CtrlCnlNum>
     </DynamicPicture>
   </Components>
